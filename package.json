@@ -1,0 +1,22 @@
+{
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "npx tsc",
+    "start": "node ./dist/src/index.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "@hono/node-server": "^1.11.1",
+    "@libsql/client": "^0.6.0",
+    "dotenv": "^16.4.5",
+    "drizzle-orm": "^0.30.10",
+    "hono": "^4.3.7",
+    "puppeteer": "^22.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "drizzle-kit": "^0.21.2",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.5"
+  }
+}
